@@ -1,0 +1,48 @@
+.img-hover-zoom {
+    height: 300px;
+    /* [1.1] Set it as per your need */
+    overflow: hidden;
+    /* [1.2] Hide the overflowing of child elements */
+}
+
+
+/* [2] Transition property for smooth transformation of images */
+
+/* .img-hover-zoom img {
+    transition: transform .5s ease;
+} */
+
+
+/* [3] Finally, transforming the image when container gets hovered */
+
+/* .img-hover-zoom:hover img {
+    transform: scale(1.5);
+} */
+
+
+.how-does-image{
+    width: 220px;
+    height: 220px;
+    transition: transform .1s; /* Animation */
+}
+
+.how-does-image:hover{
+    transform: scale(1.2);
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.title-div{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.text-image{
+    font-size: 18px;
+}
+

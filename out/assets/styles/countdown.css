@@ -1,0 +1,26 @@
+#countdown-container {
+    display: inline-block; /*displays divs on a line*/
+    width: 90%; /*gives the div element a width of 300px*/
+    margin: 20px 0; /*gives 20px space at the top and bottom of the div element*/
+    border-radius: 5px; /*curves the edges of the div element by 5px;*/
+    background: #FE5000; /*gives the div element a background color*/
+}
+#countdown {
+    display: inline-block; /*displays divs on a line*/
+    background: #FE5000;
+    color: white; /*changes the text color in the div element*/
+}
+
+#countdown span {
+    font-weight: bold; /*boldens text in the span element*/
+    font-size: 24px; /*changes the text size in the span element*/
+}
+
+.discount-tag{
+    display: inline-block; /*displays divs on a line*/
+    margin: 10px 0; /*gives 20px space at the top and bottom of the div element*/
+    border-radius: 5px; /*curves the edges of the div element by 5px;*/
+    background: #FE5000; /*gives the div element a background color*/
+    color: white;
+    padding: 5px;
+}

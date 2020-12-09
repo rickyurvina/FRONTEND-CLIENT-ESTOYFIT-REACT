@@ -1,0 +1,166 @@
+.info-gym{
+    height: auto;
+    width: 100%;
+}
+.row-margin{
+    border-top: 5px solid #FE5000;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.icon-gym{
+    font-family: inherit;
+    padding-top: 6px;
+}
+
+.contact{
+    padding-top: 10px;
+}
+
+.button-gym{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link-gym{
+    color: white;
+}
+
+.link-gym:hover{
+    color: #FE5000;
+}
+
+.info-box{
+    align-content: center;
+    height: 300px;
+    border-top:4px solid #FE5000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+@media only screen and (max-width: 991px)
+{
+    .info-box{
+        align-content: center;
+        height: 500px;
+        border-top:4px solid #FE5000;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+    }
+}
+
+
+.desc-box{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.desc-box a{
+    padding-top: 5px;
+    font-size: 14px;
+    color: #FE5000;
+
+}
+
+.desc-box >a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+.info-box .img-map{
+    width: 100%;
+    height: 100%;
+}
+
+.info-box h4{
+    color: #FE5000;
+}
+
+.img-map{
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    border-top:4px solid #FE5000;
+}
+
+.img-map img{
+    width: 90%;
+    height: 90%;
+}
+
+.box-left{
+    border-right: 0px;
+}
+
+.box-right{
+    border-left: 0px;
+}
+
+.text-place{
+    color:white;
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.distance{
+    align-content: center;
+}
+.grid-place{
+    background-color: #000000;
+}
+
+
+.aling-text-place{
+    text-align: right;
+}
+.text{
+    font-size: small;
+}
+.icon{
+    text-align: center;
+    color: cadetblue;
+    font-size: x-small;
+}
+.icon:hover {
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+    color: red;
+}
+.image{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+.margin-top-customer{
+    margin-top: 20px;
+}
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.ul-outline{
+    width: auto;
+}
+
+.info-gym{
+    /* margin-left: 20px;
+    margin-right: 5px; */
+}

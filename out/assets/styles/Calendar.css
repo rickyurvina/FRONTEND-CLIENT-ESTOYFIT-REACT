@@ -1,0 +1,9 @@
+.row-calendar{
+    background-image: url(../../../images/custom-images/h1-backround.jpg);
+    height: 600px;
+}
+.calendar-title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,339 @@
+/*================================================
+banner Area CSS
+=================================================*/
+.banner-area{
+    width: 100%;
+    padding-top: 0%;
+    position: relative;
+}
+
+.row-banner{
+    width: 100%;
+}
+
+.banner-col{
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.banner-area .section-title {
+    background-color: transparent;
+    padding: 0;
+}
+
+.banner-area .section-title h2 {
+    padding-left: 0;
+    font-weight: 700;
+}
+
+.banner-area .section-title h2 .dot {
+    display: none;
+}
+
+.banner-box {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.banner-box::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    background-color: #ffffff;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.banner-box::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background-color: #ffffff;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.banner-box .category {
+    position: absolute;
+    left: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    right: 0;
+    bottom: 80px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.banner-box .category::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: transparent;
+    opacity: 0.94;
+    z-index: 1;
+    margin: 6px;
+}
+
+.banner-box .category h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-box img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.img-banner {
+    width: 300px;
+    height: 300px;
+}
+
+.banner-box .box-inner {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    padding: 60px 15px;
+    padding-top: 120px;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #ededed;
+    margin: 30px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.banner-box .box-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #ededed;
+    opacity: 0.50;
+    z-index: 1;
+    margin: 6px;
+    z-index: -1;
+}
+
+.banner-box .box-inner h3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.banner-box .box-inner ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.banner-box .box-inner ul li {
+    margin-bottom: 10px;
+}
+
+.banner-box .box-inner ul li:last-child {
+    margin-bottom: 0;
+}
+
+.banner-box .box-inner ul li a {
+    font-size: 13px;
+    color: #666666;
+    position: relative;
+    display: inline-block;
+}
+
+.banner-box .box-inner ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #222222;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.banner-box .box-inner ul li a:hover,
+.banner-box .box-inner ul li a:focus {
+    color: #222222;
+}
+
+.banner-box .box-inner ul li a:hover::before,
+.banner-box .box-inner ul li a:focus::before {
+    width: 100%;
+}
+
+.banner-box:hover img,
+.banner-box:focus img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.banner-box:hover::after,
+.banner-box:focus::after {
+    left: 100%;
+}
+
+.banner-box:hover::before,
+.banner-box:focus::before {
+    left: -100%;
+}
+
+.banner-box:hover .category,
+.banner-box:focus .category {
+    opacity: 0;
+    visibility: hidden;
+    bottom: 0;
+}
+
+.banner-box:hover .box-inner,
+.banner-box:focus .box-inner {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+
+.single-banner-box {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.single-banner-box::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    opacity: .50;
+    z-index: 2;
+    border-radius: 2px;
+}
+
+.single-banner-box img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.single-banner-box .banner-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.single-banner-box .banner-content h3 {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.single-banner-box .banner-content span {
+    display: block;
+    color: #ffffff;
+}
+
+.single-banner-box a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.single-banner-box:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.banner-slides.owl-theme .owl-dots {
+    margin-top: 30px;
+}
+
+.banner-slides.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.banner-slides.owl-theme .owl-nav [class*=owl-] {
+    position: absolute;
+    left: -5px;
+    top: 0;
+    height: 83.4%;
+    width: 34px;
+    background-color: #dedddc;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: 0;
+    border-radius: 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    color: #222222;
+}
+
+.banner-slides.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.banner-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+    left: auto;
+    right: -5px;
+}
+
+.banner-slides.owl-theme .owl-nav [class*=owl-] i {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-slides.owl-theme:hover .owl-nav [class*=owl-] {
+    left: -18px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.banner-slides.owl-theme:hover .owl-nav [class*=owl-].owl-next {
+    left: auto;
+    right: -18px;
+}

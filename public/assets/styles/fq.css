@@ -1,0 +1,232 @@
+.fq-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9991;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+
+.fq-popup.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.fq-popup.is-visible .fq-popup-container {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.fq-popup .fq-popup-container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    max-width: 1100px;
+    height: 80%;
+    margin: 0 auto;
+    background: #f4f4f3;
+    border-radius: none;
+    text-align: center;
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    padding: 5% 5%;
+    overflow: hidden;
+}
+
+.fq-popup .fq-popup-container .fq-popup-button {
+    padding: 5px 25px;
+    border: 2px solid #222222;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.fq-popup .fq-popup-container a {
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.fq-popup .fq-popup-container .fq-popup-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.fq-popup .fq-popup-container .fq-popup-close::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 8px;
+}
+
+.fq-popup .fq-popup-container .fq-popup-close::after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 6px;
+    top: 13px;
+}
+
+.fq-popup .fq-popup-container .fq-popup-close::before,
+.fq-popup .fq-popup-container .fq-popup-close::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    width: 16px;
+    height: 3px;
+    background-color: #222222;
+}
+
+.fq-popup .fq-popup-container h3 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fq-popup .fq-popup-container h3 p {
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.fq-popup .fq-popup-container ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.fq-popup .fq-popup-container ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.fq-popup .fq-popup-container ul li a {
+    width: 33px;
+    height: 33px;
+    background-color: #222222;
+    color: #ffffff;
+    line-height: 35px;
+    border-radius: 50%;
+}
+
+.fq-popup .fq-popup-container ul li a.facebook {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.fq-popup .fq-popup-container ul li a.twitter {
+    background-color: #1da1f2;
+    color: #ffffff;
+}
+
+.fq-popup .fq-popup-container ul li a.linkedin {
+    background-color: #0077b5;
+    color: #ffffff;
+}
+
+.fq-popup .fq-popup-container ul li a.instagram {
+    background-color: #e1306c;
+    color: #ffffff;
+}
+
+.fq-popup .fq-popup-container .img-box img:nth-child(1) {
+    position: absolute;
+    left: -45px;
+    bottom: 0;
+    z-index: -1;
+    width: 185px;
+}
+
+.fq-popup .fq-popup-container .img-box img:nth-child(2) {
+    position: absolute;
+    right: -45px;
+    bottom: 0;
+    z-index: -1;
+    width: 185px;
+}
+
+.fq-popup .fq-popup-container form {
+    position: relative;
+}
+
+.fq-popup .fq-popup-container form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 45px;
+    border: none;
+    background-color: #222222;
+    color: #ffffff;
+    outline: 0;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0 20px;
+}
+
+.fq-popup .fq-popup-container form button:hover,
+.fq-popup .fq-popup-container form button:focus {
+    background-color: #000000;
+}
+
+.fq-popup .fq-popup-container form .validation-danger {
+    color: red;
+    margin-top: 10px;
+}
+
+.fq-popup .fq-popup-container form .validation-success {
+    margin-top: 10px;
+}
+
+.fq-logo img{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    margin-left: -500px;
+    margin-top: -20px;
+}
+
+
+.title-help{
+    color: #FE5000;
+}
+
+.img-help img{
+    margin-top: -80px;
+    max-height: 500px;
+    max-width: 800px;
+    width: 550px;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .img-help img{
+        width: 0%;
+        height: 0%;
+    }
+}
+
+.help-logo img{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -70px;
+}

@@ -1,0 +1,64 @@
+.row-calendar{
+    background-image: url(../../../images/custom-images/h1-backround.jpg);
+    height: auto;
+}
+.calendar-title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+table.tt_timetable {
+    font-weight: 20%;
+    color: grey;
+    font-size: 16px;
+    border-collapse: collapse!important;
+}
+
+.row-gray td{
+    background-color: #302f34 !important;
+    color: white;
+    border-top:1px solid #232226 !important;
+    border-bottom:1px solid #232226 !important;
+    border-left: 1px solid #232226 !important;
+    border-right: 1px solid #232226 !important;
+}
+
+.row-gray-title td{
+    background-color: #302f34 !important;
+    border-top: none;
+    color: white;
+}
+
+.event-header{
+    color: #7c7c7c !important;
+}
+
+.top-hour{
+    text-align: right;
+    padding-right: 5px;
+    position: relative;
+}
+
+.bottom-hour{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.event-header-alert{
+    color: #b625cc !important;
+}
+
+.table-calendar::-webkit-scrollbar{
+    width: 12px;
+    height: 6px;
+}
+
+.table-calendar::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+.table-calendar::-webkit-scrollbar-thumb{
+    background-color: #FE5000;
+    border-radius: 20px;
+}

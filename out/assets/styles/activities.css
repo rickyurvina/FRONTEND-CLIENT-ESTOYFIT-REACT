@@ -1,0 +1,24 @@
+.container-activities{
+    padding-top: 50px;
+    padding-bottom:  50px;
+    text-align: center;
+}
+
+.center-pills{
+    align-items: center;
+}
+
+.activities-tab{
+    background-color: #FE5000 !important;
+    color: white !important;
+}
+
+.tab-grey{
+    background-color: #29282d;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white !important;
+}
+

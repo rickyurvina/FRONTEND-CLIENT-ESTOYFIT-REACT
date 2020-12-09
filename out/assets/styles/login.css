@@ -1,0 +1,17 @@
+.btn-google{
+    height: 50px;
+    font-family: inherit;
+}
+
+.btn-facebook{
+    background-color: #4267B2;
+    color: white;
+    height: 50px;
+    padding-top: 10px !important;
+}
+
+.btn-facebook:hover{
+    color:#4267B2;
+    background-color: white;
+    border: 1px solid #4267B2;
+}

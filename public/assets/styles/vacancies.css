@@ -1,0 +1,47 @@
+.card-vacant{
+    border-bottom: 4px solid #FE5000;
+    box-shadow: 1px 4px 10px black;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.title-card-vacant{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.icons-vacant a{
+    color: black;
+    font-size: 30px;
+    float: right;
+}
+
+.box-vacant p{
+    font-size: 11px;
+    text-align: justify;
+}
+
+.tags{
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.tag{
+    border: 1px solid #B2B1B8;
+    border-radius: 4px;
+    padding: 7px;
+    background-color:#ECEAF3;
+    text-align: center;
+    font-size: 10px;
+    
+    margin-bottom: -4px;
+    pointer-events: none;
+    box-shadow: 3px 2px 1px black;
+}
+
+.img-vacant img{
+    width: auto;
+    height: auto;
+}

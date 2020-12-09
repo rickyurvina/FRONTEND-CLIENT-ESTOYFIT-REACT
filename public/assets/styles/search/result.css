@@ -1,0 +1,65 @@
+.container-result{
+    margin-top: 150px;
+}
+
+.result-h6{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.gym-name-h5{
+    font-size: 18px;
+}
+
+.gym-ubication-h6{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777;
+    display: inline;
+}
+
+.img-gym{
+    max-width: 100%;
+    width: auto;
+}
+
+.pass{
+    border-bottom: 1px solid #ddd;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.pass-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.info-pass{
+    text-align: right;
+}
+
+.value-off{
+    border-radius: 5px; /*curves the edges of the div element by 5px;*/
+    background: #FE5000; /*gives the div element a background color*/
+    color: white;
+    padding: 5px;
+    display: inline-block; /*displays divs on a line*/
+}
+
+.value-before{
+    font-size: 14px;
+    margin: 8px;
+    text-decoration: line-through;
+}
+
+.value-after{
+    font-size: 20px;
+    margin: 8px;
+}
+
+.class-item{
+    color: #999;
+    font-size: 12px;
+}

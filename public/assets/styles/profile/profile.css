@@ -1,0 +1,49 @@
+.profile-tabs{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.profile-tab{
+    background-color: #FE5000 !important;
+    color: white !important;
+}
+
+.profile-tab:hover{
+    color: white;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.btn-profile{
+    background-color:  white !important;
+    border-color: black !important;
+    color: black;
+    height: 35px;
+}
+
+.btn-profile:hover{
+    background-color:  #fe5005 !important;
+    border-color: #fe5005 !important;
+    color: white;
+}
+
+.btn-delete{
+    background-color:  black !important;
+    border-color:black !important;
+    color: white;
+    height: 35px;
+    margin: 5px;
+}
+
+.btn-delete:hover{
+    background-color:  #fe5005 !important;
+    border-color: #fe5005 !important;
+    color: white;
+}
+
+.img-profile{
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,15 @@
+.contact-whatsapp{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-image: url(../../../../images/about-us/h2-parallax-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+}
+
+.row-whatsapp{
+    padding-top: 25px;
+    padding-left: 45px;
+    font-size: large;
+}
